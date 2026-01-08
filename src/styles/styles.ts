@@ -1,0 +1,46 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  safe: { flex: 1, backgroundColor: "#fff" },
+  container: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#ffffffff",
+    // padding: 20,
+    gap: 10,
+  },
+  title: { fontSize: 28, fontWeight: "700" },
+  subtitle: { fontSize: 14, opacity: 0.7, marginBottom: 12 },
+  card: {
+    width: "100%",
+    maxWidth: 420,
+    borderWidth: 1,
+    borderColor: "#eee",
+    borderRadius: 14,
+    padding: 16,
+    gap: 10,
+  },
+  label: { fontSize: 12, opacity: 0.7 },
+  input: {
+    borderWidth: 1,
+    borderColor: "#ddd",
+    borderRadius: 10,
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+    fontSize: 16,
+  },
+  button: {
+    marginTop: 8,
+    paddingVertical: 12,
+    borderRadius: 12,
+    alignItems: "center",
+    backgroundColor: "#111",
+  },
+  buttonDisabled: { opacity: 0.35 },
+  buttonPressed: { opacity: 0.85 },
+  buttonText: { color: "#fff", fontSize: 16, fontWeight: "600" },
+  linkButton: { alignItems: "center", paddingVertical: 8 },
+  linkText: { fontSize: 14, opacity: 0.8 },
+  body: { fontSize: 14, lineHeight: 20, opacity: 0.8 },
+});
