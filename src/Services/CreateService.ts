@@ -1,6 +1,5 @@
 import { VaultItemType } from "../sheets/NewVaultItemSheet";
 
-// const API_BASE_URL = "https://expira-funktionapp-f0exhsbzfwgyake7.westeurope-01.azurewebsites.net/api/";
 
 const API_BASE_URL = process.env.EXPO_PUBLIC_AZFUNCTION_BASE_URL;
 
